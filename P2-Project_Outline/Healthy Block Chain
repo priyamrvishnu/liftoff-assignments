@@ -1,0 +1,30 @@
+# Project Outline
+
+## Assignment Description
+
+### Overview
+Healthy Block chain: This website is used in the internal operations of the hospital and 
+all of the patients records are block chained so that it cannot be altered. 
+No phsical movement of the files are required for the patients visit.
+
+### Features
+Usernaame and password: Has seperate user name and password for each staff of the hospital inclding doctors.
+Aministrator:creates a new patient id and recommends a doctor for the alignment and sends them to the doctor
+Doctor: May recommed lab for any testing or prescribe medicine to be sent to the pharmacy
+Lab: Receives the test list from the doctor, after performing the test post them to the doctor again.
+Pharmacy: Give medicine to the patient according to the precribtion of the doctor.
+All the above info are blockchained using the hashes so they are immutable and cannot be altered at a later stage.
+All of the information are available for the patient to view their records when they login the website.  
+
+### Technologies
+Python with Flask Frame work
+Html,CSS, Bootstrap
+Block chain implentation
+My Sql
+
+### What I'll Have to Learn
+Implementing the block chain of the patient records with linking the hashes for the previous visit block to the current visit block.
+Hence the any change in a patients record cannot be updated confirming the reliability of the records. 
+
+### Project Tracker
+https://www.pivotaltracker.com/n/projects/2314903
